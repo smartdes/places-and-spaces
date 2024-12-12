@@ -77,4 +77,21 @@ footer {
   .btn-light:hover {
     background-color: #91781f; /* Slightly darker golden yellow for hover effect */
   }
+
+#heroCarousel {
+    height: 300px; /* Adjust this value as needed */
+  }
+  
+  #heroCarousel .carousel-item {
+    height: 100%; /* Ensure carousel items take up the full height of the container */
+  }
+  
+  #heroCarousel .carousel-inner {
+    height: 100%; /* Ensure carousel inner content fits the container */
+  }
+  
+  #heroCarousel img {
+    object-fit: cover; /* Ensures images cover the area without distortion */
+    height: 100%;
+  }
   
