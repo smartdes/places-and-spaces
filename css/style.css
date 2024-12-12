@@ -1,0 +1,69 @@
+/* style.css */
+
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #0D478A;
+}
+
+.navbar-brand, .nav-link {
+    color: #fff !important;
+}
+
+.nav-link:hover {
+    color: #D0AE38 !important;
+}
+
+/* Hero Section */
+.carousel-caption h1 {
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.carousel-caption p {
+    color: #fff;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #0D478A;
+    border-color: #0D478A;
+}
+
+.btn-primary:hover {
+    background-color: #D0AE38;
+    border-color: #D0AE38;
+}
+
+/* Section Titles */
+h2 {
+    color: #0D478A;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    background-color: #0D478A;
+    color: #fff;
+}
+
+.carousel-item {
+    height: 75vh;
+    background-size: cover;
+    background-position: center;
+}
+.carousel-caption {
+    background: #d0af38bd;
+    padding: 1rem;
+    border-radius: 10px;
+}
+.sticky-top {
+    z-index: 1020; /* Ensures it stays above other elements */
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
