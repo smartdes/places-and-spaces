@@ -77,8 +77,9 @@ footer {
   .btn-light:hover {
     background-color: #91781f; /* Slightly darker golden yellow for hover effect */
   }
+  
 
-#heroCarousel {
+  #heroCarousel {
     height: 300px; /* Adjust this value as needed */
   }
   
@@ -94,4 +95,17 @@ footer {
     object-fit: cover; /* Ensures images cover the area without distortion */
     height: 100%;
   }
+
+  <!-- Add Flickering Button Animation in CSS -->
+
+  
+@keyframes flicker {
+    0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+        opacity: 1;
+    }
+    20%, 24%, 55% {
+        opacity: 0;
+    }
+}
+
   
